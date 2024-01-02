@@ -25,7 +25,7 @@ print(SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = str(os.environ.get('DEBUG')) == "1" # 1 == True
 
-ALLOWED_HOSTS = ['practice-django-bxx48.ondigitalocean.app']
+ALLOWED_HOSTS = []
 if not DEBUG:
     ALLOWED_HOSTS += [os.environ.get("DJANGO_ALLOWED_HOST")]
 
