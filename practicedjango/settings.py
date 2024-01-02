@@ -60,7 +60,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [ 
             BASE_DIR / "templates",
-            "/Users/julius/Projects/practice-django/practicedjango/templates" ],
+         ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
