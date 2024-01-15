@@ -20,7 +20,7 @@ print("BASE DIR:", BASE_DIR)
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-u!fk=861u^&p-x+c81r@7f9pcjg37qw(ax-c_zr(ozm01jpc)p')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 print(SECRET_KEY)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = str(os.environ.get('DEBUG')) == "1" # 1 == True
